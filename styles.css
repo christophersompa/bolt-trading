@@ -52,7 +52,11 @@ nav.open {
 }
 
 .navLinks a:hover {
-  color: #ffff;
+  color: skyblue;
+}
+
+nav.open a:hover {
+  color: white;
 }
 
 #menuToggler {
