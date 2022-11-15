@@ -6,7 +6,6 @@ body {
   margin: 0;
 }
 
-/*navigation*/
 nav {
   position: fixed;
   width: 100%;
@@ -81,7 +80,6 @@ nav {
   );
 }
 
-/*background img - home page*/
 .bg-img {
   height: 400px;
   width: auto;
@@ -114,7 +112,6 @@ nav {
   padding: 0 10px 0 10px;
 }
 
-/*promotion banner - home page*/
 .promotion {
   background-color: #5caeff;
   text-align: center;
@@ -126,7 +123,6 @@ nav {
   padding: 10px 10px 10px 10px;
 }
 
-/*our services button - home page*/
 #our-services {
   background-color: white;
   color: #5caeff;
@@ -147,7 +143,6 @@ nav {
   transition: 1s;
 }
 
-/*what we offer section - home page*/
 .offers {
   display: flex;
   flex-direction: row;
@@ -188,7 +183,6 @@ nav {
   transition: 1s;
 }
 
-/*what we do section - home page*/
 .what-we-do {
   display: flex;
   justify-content: center;
@@ -216,7 +210,6 @@ nav {
   text-align: center;
 }
 
-/*testimonial slides - home page*/
 .testimonial-container {
   display: flex;
   justify-content: center;
@@ -324,7 +317,6 @@ nav {
   box-shadow: 0 0 0 3px #5caeff;
 }
 
-/*about us section - about page*/
 .about-us {
   display: flex;
   justify-content: center;
@@ -350,7 +342,6 @@ nav {
   font-size: 15px;
 }
 
-/*team member section - about page*/
 .team-member {
   display: flex;
   flex-direction: row;
@@ -420,7 +411,6 @@ nav {
   background-position: 60% 30%;
 }
 
-/*our clients - about us*/
 .clients {
   display: flex;
   flex-direction: row;
@@ -478,8 +468,33 @@ nav {
   background-position: 50% 30%;
 }
 
-/*services*/
+.service {
+  text-align: center;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  background: transparent;
+  transition: transform 0.5s, background 0.5s;
+}
 
+.service {
+  width: 300px;
+  text-align: center;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.service i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #5caeff;
+}
+
+.service h2 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
 .s-container {
   height: auto;
   padding: 0 5%;
@@ -495,126 +510,195 @@ nav {
   width: 100px;
 }
 
-.service {
-  text-align: center;
-  padding: 25px;
-  border-radius: 5px;
-  font-size: 14px;
-}
-
-.service i {
-  font-size: 40px;
-  margin-bottom: 10px;
-  color: #5caeff;
-}
-
 .s-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 20px 0px;
 }
 
-.service h2 {
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-
-/*membership*/
+/*memberships*/
 .membership {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  padding: 40px;
-  background-color: #f7f7ff;
+  width: auto;
+  height: auto;
+  background: linear-gradient(
+    135deg,
+    rgba(92, 174, 255, 1) 0%,
+    rgb(235, 236, 242) 100%
+  );
 }
 
 .cards {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.card {
+.card-1 {
+  height: 600px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 15px;
   background-color: #fff;
-  border-radius: 0.8rem;
+  margin: 30px 10px 30px 10px;
 }
 
-.cards .card.active {
-  background: linear-gradient(
-    135deg,
-    rgba(92, 174, 255, 1) 0%,
-    rgba(105, 111, 221, 1) 100%
-  );
+.card-1 ul,
+.card-2 ul,
+.card-3 ul {
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.card-1 li,
+.card-2 li,
+.card-3 li {
+  text-align: left;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  font-size: 17px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  width: 250px;
+  box-shadow: 1px 3px lightblue;
+}
+
+.pack-1,
+.pack-2,
+.pack-3 {
+  border: 1px solid rgb(92, 174, 255, 1);
+  border-radius: 15px;
+  margin: 5px;
+  height: 250px;
+  padding: 25px;
+  opacity: 905;
+}
+
+.pack-1-style {
+  width: 100px;
+  border: 1px solid #5caeff;
+  border-radius: 20px;
+  background-color: #5caeff;
   color: #fff;
-  display: flex;
-  align-items: center;
-}
-
-.card ul {
-  margin: 2.6rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-}
-
-.card li {
-  list-style: none;
-  padding: 1rem 0;
-}
-
-.card ul li.price {
-  font-size: 3rem;
-}
-
-.card-btn {
-  margin-top: 1rem;
-  height: 2.6rem;
-  width: 13.3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
-  cursor: pointer;
+  font-size: 25px;
+  margin: 15px 0px 10px 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.pack-1-price {
+  color: #5caeff;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.pack-2 {
+  border: 1px solid #fff;
   background: linear-gradient(
     135deg,
     rgba(92, 174, 255, 1) 0%,
-    rgba(105, 111, 221, 1) 100%
+    rgba(105, 111, 221, 0.749) 100%
   );
-  color: #fff;
-  outline: none;
-  border: 0;
-  font-weight: bold;
 }
 
-.card-btn:hover {
-  transform: translateY(-0.2em);
-  transition: 1s;
+.pack-3 {
+  border: 1px solid #fff;
+  background: linear-gradient(
+    135deg,
+    rgba(92, 174, 255, 1) 0%,
+    rgba(171, 77, 202, 0.717) 100%
+  );
 }
 
-#consulting-btn a {
-  text-decoration: none;
-}
-.active-btn {
-  background: #fff;
+.pack-2-style {
+  width: 150px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  background-color: #fff;
   color: #5caeff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin: 15px 0px 10px 0px;
+  padding: 0px;
+  text-align: center;
 }
 
-.bottom-bar {
-  border-bottom: 1px solid hsla(240, 8%, 85%, 0.5);
+.pack-2-price {
+  color: #fff;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 
-.shadow {
-  box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+.pack-2-content {
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
 }
 
-/*download app*/
+.pack-1-content {
+  font-size: 17px;
+  font-weight: 400;
+  color: black;
+  opacity: 80%;
+}
+
+.card-2 {
+  height: 600px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 15px;
+  background-color: #fff;
+  margin: 30px 10px 30px 10px;
+}
+
+.card-3 {
+  height: 600px;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 15px;
+  background-color: #fff;
+  margin: 30px 10px 30px 10px;
+}
+
+.card-btn-1,
+.card-btn-2,
+.card-btn-3 {
+  width: 200px;
+  height: 40px;
+  background-color: #5caeff;
+  color: #fff;
+  border: 1px solid #5caeff;
+  border-radius: 30px;
+  opacity: 85%;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.card-btn-1:hover,
+.card-btn-2:hover,
+.card-btn-3:hover {
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.card-btn-1,
+.card-btn-2,
+.card-btn-3 {
+  margin-left: 25px;
+}
+
 .download {
   display: flex;
   flex-direction: column;
@@ -688,7 +772,6 @@ nav {
   font-size: 15px;
 }
 
-/*free forex lesson*/
 .free-lesson {
   display: flex;
   justify-content: center;
@@ -714,7 +797,6 @@ nav {
   font-size: 15px;
 }
 
-/*footer section*/
 footer {
   height: 110px;
   background-color: #5caeff;
@@ -826,32 +908,11 @@ footer li {
     font-size: 1.1rem;
   }
 
-  .service {
-    text-align: center;
-    padding: 25px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    background: transparent;
-    transition: transform 0.5s, background 0.5s;
-  }
-
-  .service:hover {
-    background: #5caeff;
-    color: #fff;
-    transform: scale(1.05);
-  }
-
-  .service:hover i {
-    color: #fff;
-  }
-
   .cards .card.active {
     transform: scale(1.1);
   }
 }
 
-/*breakpoint what we offer*/
 @media screen and (min-width: 920px) {
   .offers {
     display: flex;
@@ -888,7 +949,6 @@ footer li {
   }
 }
 
-/*breakpoint meet the team (about)*/
 @media screen and (min-width: 880px) {
   .team-member {
     display: flex;
@@ -909,5 +969,3 @@ footer li {
     align-items: center;
   }
 }
-
-/*breakpoint membership (our service)*/
