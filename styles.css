@@ -500,9 +500,9 @@ nav {
   padding: 0 5%;
 }
 
-.s-container h1 {
+.s-container h2 {
   text-align: center;
-  font-weight: 600;
+  text-transform: uppercase;
   color: #5caeff;
 }
 
