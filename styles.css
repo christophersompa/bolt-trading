@@ -468,6 +468,16 @@ nav {
   background-position: 50% 30%;
 }
 
+.s-container h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #5caeff;
+}
+
+.s-container hr {
+  width: 100px;
+}
+
 .service {
   text-align: center;
   padding: 25px;
@@ -494,20 +504,11 @@ nav {
 .service h2 {
   font-weight: 600;
   margin-bottom: 8px;
+  text-transform: capitalize;
 }
 .s-container {
   height: auto;
   padding: 0 5%;
-}
-
-.s-container h2 {
-  text-align: center;
-  text-transform: uppercase;
-  color: #5caeff;
-}
-
-.s-container hr {
-  width: 100px;
 }
 
 .s-row {
