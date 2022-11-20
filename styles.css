@@ -238,6 +238,7 @@ nav {
 .testimonial p {
   font-family: 'Quicksand', sans-serif;
   color: white;
+  font-size: 16px !important;
   line-height: 1.33;
 }
 
@@ -246,7 +247,7 @@ nav {
   display: block;
   color: white;
   margin-top: 1.5rem;
-  font-size: 1rem;
+  font-size: 16px;
 }
 
 .slides {
@@ -746,11 +747,11 @@ nav {
 }
 
 .card-btn-1 {
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .card-btn-2 {
-  margin-top: 12px;
+  margin-top: 13px;
 }
 
 .card-btn-3 {
