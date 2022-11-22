@@ -51,7 +51,7 @@ nav.open {
 }
 
 .navLinks a:hover {
-  color: skyblue;
+  color: #5caeff;
 }
 
 nav.open a:hover {
@@ -135,6 +135,7 @@ nav {
 }
 
 #our-services:hover {
+  transition: 1s;
   border-color: white;
   color: white;
   background-color: #5caeff;
