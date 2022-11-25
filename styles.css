@@ -63,10 +63,10 @@ nav.open a:hover {
   top: 0.5rem;
   right: 0.5rem;
   color: white;
-  font-size: 3em;
+  font-size: 2em;
   text-align: right;
   line-height: 1em;
-  padding: 0 0.8rem;
+  padding: 3px 10px;
   cursor: pointer;
   z-index: 2;
 }
@@ -770,6 +770,10 @@ nav {
     rgba(105, 111, 221, 1) 100%
   );
   color: #fff;
+}
+
+.d-applications h3 {
+  padding: 0px 10px;
 }
 
 .d-store {
