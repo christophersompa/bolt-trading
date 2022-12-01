@@ -876,6 +876,29 @@ footer {
   padding: 0px 10px 0px;
 }
 
+.form-control {
+  border: 1px solid #5caeff;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.btn-submit {
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid #5caeff;
+  color: #5caeff;
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  color: #fff;
+  background-color: #5caeff;
+  border: 1px solid transparent;
+  transition: 1s;
+}
+
 footer p {
   font-weight: 300;
   font-size: 15px;
