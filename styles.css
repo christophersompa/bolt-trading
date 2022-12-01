@@ -879,7 +879,7 @@ footer {
 .form-control {
   border: 1px solid #5caeff;
   border-radius: 100px;
-  padding: 5px;
+  padding: 6px;
 }
 
 .btn-submit {
@@ -888,7 +888,7 @@ footer {
   color: #5caeff;
   background-color: #fff;
   border-radius: 100px;
-  padding: 5px;
+  padding: 6px;
   cursor: pointer;
 }
 
