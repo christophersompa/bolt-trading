@@ -129,6 +129,7 @@ nav {
   border: 2px solid #5caeff;
   font-size: 1em;
   font-family: inherit;
+  font-weight: 700;
   padding: 1em 1em;
   margin-top: 30px;
   opacity: 1;
@@ -879,7 +880,8 @@ footer {
 .form-control {
   border: 1px solid #5caeff;
   border-radius: 100px;
-  padding: 6px;
+  padding: 10px;
+  margin: 5px;
 }
 
 .btn-submit {
@@ -888,7 +890,7 @@ footer {
   color: #5caeff;
   background-color: #fff;
   border-radius: 100px;
-  padding: 6px;
+  padding: 10px 20px;
   cursor: pointer;
 }
 
