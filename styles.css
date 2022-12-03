@@ -1046,7 +1046,7 @@ footer li {
     height: auto;
     width: auto;
     justify-content: center;
-    padding-bottom: 20px;
+    padding: 20px 0px;
     background-color: #f7f7ff;
   }
 
