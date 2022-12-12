@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 
-/* nav {
+nav {
   position: fixed;
   width: 100%;
   height: 100vh;
@@ -19,15 +19,15 @@ body {
   transform: translateY(-100vw);
   transition: 1s;
   z-index: -1;
-} */
+}
 
-/* nav.open {
+nav.open {
   position: fixed;
   transform: none;
   opacity: 1;
   transition: 0.4s;
   z-index: 1;
-} */
+}
 
 #nav-brand {
   opacity: 0;
